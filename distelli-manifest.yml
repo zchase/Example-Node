@@ -37,5 +37,8 @@ bmcgehee/nodejsbuilddeploy:
     - echo "Begin PostInstall"
     - npm install
     
+  Env:
+    - PORT: 3000
+    
   Exec:
     - /usr/bin/nodejs app.js

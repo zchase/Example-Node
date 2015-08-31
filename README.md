@@ -24,7 +24,7 @@ Install the agent and return to this document.
 
 If your repository of choice is:
 * Github, continue forward to [Fork Github Repository](#section-fork-github-repository).
-* Bitbucket, continue forward to [For a Bitbucket Repository](#section-fork-bitbucket-repository).
+* Bitbucket, continue forward to [Fork a Bitbucket Repository](#section-fork-bitbucket-repository).
 
 ## <a name="section-fork-github-repository"></a>Fork Github Repository
 
@@ -108,9 +108,9 @@ The sample application you cloned will already have an existing `distelli-manife
 
 Edit the `distelli-manifest.yml` file. 
 
-On the first line you will see a <username> placeholder, and then the name of the sample application.
+On the first line you will see a &lt;username&gt; placeholder, and then the name of the sample application.
 
-Replace the <username> placeholder with your Distelli username.  To find your Distelli username see [Finding Your Distelli Username](http://docs.distelli.com/docs/finding-your-distelli-username).
+Replace the &lt;username&gt; placeholder with your Distelli username.  To find your Distelli username see [Finding Your Distelli Username](http://docs.distelli.com/docs/finding-your-distelli-username).
 
 For example if your username is 'YourUserName' your `distelli-manifest.yml` should look like this:
 
@@ -255,29 +255,34 @@ If you are using:
 * Github see [Push with Github](#section-push-with-github)
 * Bitbucket see [Push with Bitbucket](#section-push-with-bitbucket)
 
-## <a name="section-push-with-github"></a>Push with Github
+#### <a name="section-push-with-github"></a>Push with Github
 
 Enter the following commands in the `nodejsbuilddeploy` directory:
 
 ```
-git add .\ngit commit -m \"Set username in manifest\"\ngit push -u origin master```
+git add .
+git commit -m "Set username in manifest"
+git push -u origin master
+```
 
 This will push your code change up to the repository.
 
 Continue on to [Step 9. Watch the Build and Deploy Process](#step-9-watch-the-build-and-deploy-process).
 
-## <a name="section-push-with-bitbucket"></a>Push with Bitbucket
+#### <a name="section-push-with-bitbucket"></a>Push with Bitbucket
 
 Enter the following commands in the `nodejsbuilddeploy` directory:
 
 ```
-hg commit -m \"Set username in manifest\"\nhg push```
+hg commit -m "Set username in manifest"
+hg push
+```
 
 This will push your code change up to the repository.
 
 ### <a name="step-9-watch-the-build-and-deploy-process"></a> Step 9. Watch the Build and Deploy Process
 
- 1. Click the **Builds** link at the top of the Distelli WebUI.
+1. Click the **Builds** link at the top of the Distelli WebUI.
 
 In the builds list page you will see your build queued or in progress
 

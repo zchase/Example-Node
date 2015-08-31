@@ -26,7 +26,7 @@ If your repository of choice is:
 * Github, continue forward to [Fork Github Repository](#section-fork-github-repository).
 * Bitbucket, continue forward to [Fork a Bitbucket Repository](#section-fork-bitbucket-repository).
 
-## <a name="section-fork-github-repository"></a>Fork Github Repository
+#### <a name="section-fork-github-repository"></a>Fork Github Repository
 
 1. Ensure you are logged into your Github account. <a href="https://github.com/" target="_blank">https://github.com/</a>
 2. Go to this pubilc Distelli repository: <a href="https://github.com/distelli/nodejsbuilddeploy" target="_blank">https://github.com/distelli/nodejsbuilddeploy</a>.
@@ -67,7 +67,7 @@ git clone git@github.com:YOUR_GITHUB_USERNAME/nodejsbuilddeploy.git
 
 To continue please proceed to [Step 3. Edit the Distelli Manifest](#step-3-edit-the-distelli-manifest).
 
-## <a name="section-fork-bitbucket-repository"></a>Fork Bitbucket Repository
+#### <a name="section-fork-bitbucket-repository"></a>Fork Bitbucket Repository
 
 1. Ensure you are logged into your Bitbucket account. <a href="https://bitbucket.org/" target="_blank">https://bitbucket.org/</a>
 2. Go to this pubilc Distelli repository: <a href="https://bitbucket.org/distelli/nodejsbuilddeploy" target="_blank">https://bitbucket.org/distelli/nodejsbuilddeploy</a>.

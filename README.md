@@ -26,7 +26,7 @@ If your repository of choice is:
 * Github, continue forward to [Fork Github Repository](#section-fork-github-repository).
 * Bitbucket, continue forward to [Fork a Bitbucket Repository](#section-fork-bitbucket-repository).
 
-## <a name="section-fork-github-repository"></a>Fork Github Repository
+#### <a name="section-fork-github-repository"></a>Fork Github Repository
 
 1. Ensure you are logged into your Github account. <a href="https://github.com/" target="_blank">https://github.com/</a>
 2. Go to this pubilc Distelli repository: <a href="https://github.com/distelli/nodejsbuilddeploy" target="_blank">https://github.com/distelli/nodejsbuilddeploy</a>.
@@ -67,7 +67,7 @@ git clone git@github.com:YOUR_GITHUB_USERNAME/nodejsbuilddeploy.git
 
 To continue please proceed to [Step 3. Edit the Distelli Manifest](#step-3-edit-the-distelli-manifest).
 
-## <a name="section-fork-bitbucket-repository"></a>Fork Bitbucket Repository
+#### <a name="section-fork-bitbucket-repository"></a>Fork Bitbucket Repository
 
 1. Ensure you are logged into your Bitbucket account. <a href="https://bitbucket.org/" target="_blank">https://bitbucket.org/</a>
 2. Go to this pubilc Distelli repository: <a href="https://bitbucket.org/distelli/nodejsbuilddeploy" target="_blank">https://bitbucket.org/distelli/nodejsbuilddeploy</a>.
@@ -191,7 +191,7 @@ Navigate to <a href="http://docs.distelli.com/docs/tutorial-creating-an-applicat
 2. In the application list click **nodejsbuilddeploy** name to navigate to the application page.
 3. Click the **Settings** link.
 
-You are now in the application settings page.
+    You are now in the application settings page.
 
 4. Check the **Automatically build this branch when a new commit is pushed** box.
 5. Click **Save Repo Settings**
@@ -313,7 +313,12 @@ For more information on the Distelli manifest see [Distelli Manifest](http://doc
 If you see the following build failure:
 
 ```
-Task Status: Exit=1 Signal=0\n\nCloning into '/distelli/tasks/d461-762'...\nHEAD is now at 7db094e Update distelli-manifest.yml\nExpected manifest(s) to contain app 'YourUserName/nodejsbuilddeploy'. Instead the manifest(s) specified:\n\t'<username>/nodejsbuilddeploy'
+Task Status: Exit=1 Signal=0
+
+Cloning into '/distelli/tasks/d461-762'...
+HEAD is now at 7db094e Update distelli-manifest.yml
+Expected manifest(s) to contain app 'YourUserName/gobuilddeploy'. Instead the manifest(s) specified:
+  '<username>/gobuilddeploy'
 ```
 
 Ensure that you:

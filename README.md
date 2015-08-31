@@ -208,7 +208,7 @@ You have enabled auto build.
 2. In the application list click **nodejsbuilddeploy** name to navigate to the application page.
 3. Click the **Settings** link.
 
-You are now in the application settings page.
+    You are now in the application settings page.
 
 4. Scroll down and find the **Repository Settings** section.
 5. Check the **Automatically deploy this branch when a build succeeds** box.
@@ -229,12 +229,12 @@ In this step you will add the server, from step 1, to the -beta environment.
 3. Click the **Environments** link.
 4. Click the **nodejsbuilddeploy-beta** environment.
 
-You are now at the environment page.
+    You are now at the environment page.
 
 5. Click the **Servers** link in the environment section.
 6. Click **Add Servers**.
 
-You should see the server from step 1 in the server list.
+    You should see the server from step 1 in the server list.
 
 7. Check the **Add Server** box for the server from step 1.
 8. Click the **Add Selected Servers** link near the top left
@@ -284,11 +284,11 @@ This will push your code change up to the repository.
 
 1. Click the **Builds** link at the top of the Distelli WebUI.
 
-In the builds list page you will see your build queued or in progress
+    In the builds list page you will see your build queued or in progress
 
 2. Click on the build to navigate to the build page.
 
-From the build page you can watch the build log. If the build fails see the [Troubleshooting](#troubleshooting) section below.
+    From the build page you can watch the build log. If the build fails see the [Troubleshooting](#troubleshooting) section below.
 
 ### Step 10. Validation
 

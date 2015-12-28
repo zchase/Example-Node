@@ -1,7 +1,7 @@
 <username>/nodejsbuilddeploy:
   # Distelli Manifest example
   # this example assumes the build and deploy servers are:
-  # Ubuntu 14.04
+  # Ubuntu 14.04 
 
   PreRelease:
     - echo "---Beginning PreRelease---"
